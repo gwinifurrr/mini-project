@@ -6,7 +6,7 @@ import numpy as np
 import collections
 import plotly.graph_objects as go
 
-st.image('netflixx.jpg')
+st.image('netflixx.png')
 st.markdown("""
     <h1 style="text-align: center; font-size: 35px;">Welcome to</h1>
 """, unsafe_allow_html=True)
@@ -32,7 +32,7 @@ st.markdown("""
 
 
 # READ DATA IMPORTED
-df = pd.read_csv(r"C:\Users\umiad\OneDrive\Desktop\mini project data\netflix1.csv")
+df = pd.read_csv(r"netflix1.csv")
 
 
 
