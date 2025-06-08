@@ -6,7 +6,7 @@ import numpy as np
 import collections
 import plotly.graph_objects as go
 
-st.image('netflixx.png')
+st.image('netflixx.jpg')
 st.markdown("""
     <h1 style="text-align: center; font-size: 35px;">Welcome to</h1>
 """, unsafe_allow_html=True)
@@ -209,7 +209,7 @@ with col1:
     st.plotly_chart(fig1, use_container_width=True)
 
     
-
+# Red color for 5 bar
 custom_colors = ["#330000", "#4D0000", "#660000", "#800000", "#990000"]
 
 
